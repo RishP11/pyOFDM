@@ -1,0 +1,47 @@
+Wireless communication is one of the most vibrant areas in the communication field
+today. While it has been a topic of study since the 1960's, the past decade has seen a
+surge of research activities in the area. This is due to a confluence of several factors.
+First is the explosive increase in demand for tetherless connectivity, driven so far
+mainly by cellular telephony but is expected to be soon eclipsed by wireless data
+applications. Second, the dramatic progress in VLSI technology has enabled small-area
+and low-power implementation of sophisticated signal processing algorithms and coding
+techniques. Third, the success of second-generation (2G) digital wireless standards,
+in particular, the IS-95 Code Division Multiple Access (CDMA) standard, provides
+a concrete demonstration that good ideas from communication theory can have a
+significant impact in practice. The research thrust in the past decade has led to a much
+richer set of perspectives and tools on how to communicate over wireless channels, and
+the picture is still very much evolving.
+There are two fundamental aspects of wireless communication that make the prob-
+lem challenging and interesting. These aspects are by and large not as significant in
+wireline communication. First is the phenomenon of fading: the time-variation of the
+channel strengths due to the small-scale effect of multipath fading, as well as larger
+scale effects such as path loss via distance attenuation and shadowing by obstacles.
+Second, unlike in the wired world where each transmitter-receiver pair can often be
+thought of as an isolated point-to-point link, wireless users communicate over the air
+and there is significant interference between them in wireless communication. The
+interference can be between transmitters communicating with a common receiver (e.g.
+uplink of a cellular system), between signals from a single transmitter to multiple re-
+ceivers (e.g. downlink of a cellular system), or between different transmitter-receiver
+pairs (e.g. interference between users in different cells). How to deal with fading and
+with interference is central to the design of wireless communication systems, and will
+be the central themes of this book. Although this book takes a physical-layer per-
+spective, it will be seen that in fact the management of fading and interference has
+ramifications across multiple layers.
+Traditionally the design of wireless systems has been focused on increasing the
+reliability of the air interface; in this context, fading and interference are viewed as
+nuisances that are to be countered. Recent focus has shifted more towards increasing
+the spectral efficiency; associated with this shift is a new point of view that fading
+can be viewed as an opportunity to be exploited. The main objective of the book is
+to provide a unified treatment of wireless communication from both these points of
+view. In addition to traditional topics such as diversity and interference averaging,
+a substantial portion of the book will be devoted to more modern topics such as
+opportunistic and multi-input multi-output (MIMO) communication.
+An important component of this book is the system view emphasis: the successful
+implementation of a theoretical concept or a technique requires an understanding of
+how it interacts with the wireless system as a whole. Unlike the derivation of a concept
+or a technique, this system view is less malleable to mathematical formulations and
+is primarily acquired through experience with designing actual wireless systems. We
+try to help the reader develop some of this intuition by giving numerous examples
+of how the concepts are applied in actual wireless systems. Five examples of wireless
+systems are used. The next section gives some sense of the scope of the wireless systems
+considered in this book.
